@@ -43,6 +43,10 @@ dependencies {
         maven { url('https://oss.sonatype.org/content/repositories/snapshots/') }
     }
 
+    compile 'com.android.support:support-annotations:21.0.0'
+    compile 'com.android.support:recyclerview-v7:21.0.0'
+    compile 'com.android.support:support-v4:21.0.3'
+
     // Espresso
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.0')
     androidTestCompile('com.android.support.test:testing-support-lib:0.1')
